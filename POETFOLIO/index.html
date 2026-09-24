@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Pravesh Kumar — AI/ML Engineer</title>
+<meta name="description" content="Pravesh kumar — Frontend Developer and AI/ML Engineer.">
+<link rel="icon" href="https://portfolio-zapc.onrender.com/images/logo2.svg">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ============ PRELOADER ============ -->
+<div id="preloader">
+  <div class="boot-box">
+    <div class="boot-line">$ ./run_portfolio.sh</div>
+    <div id="boot-lines"></div>
+    <div class="boot-bar-track"><div class="boot-bar-fill" id="boot-bar-fill"></div></div>
+  </div>
+</div>
+
+<!-- ============ CUSTOM CURSOR ============ -->
+<div class="cursor-dot" aria-hidden="true"></div>
+<div class="cursor-ring" aria-hidden="true"></div>
+
+<!-- ============ SCROLL PROGRESS ============ -->
+<div id="scroll-progress" aria-hidden="true"></div>
+
+<!-- ============ NAV ============ -->
+<nav class="nav">
+  <div class="wrap">
+    <a href="#home" class="brand"><span class="dot"></span>Pravesh.engr</a>
+    <ul class="nav-links">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#dsa">Learned</a></li>
+      <li><a href="#github">GitHub</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <a href="#contact" class="nav-cta">Hire Me</a>
+    <button class="nav-toggle" aria-label="Open menu">☰</button>
+  </div>
+</nav>
+
+<!-- ============ MOBILE MENU ============ -->
+<div class="mobile-menu">
+  <button class="close-btn" aria-label="Close menu">✕</button>
+  <a href="#home">Home</a>
+  <a href="#about">About</a>
+  <a href="#dsa">Learned</a>
+  <a href="#github">GitHub</a>
+  <a href="#projects">Projects</a>
+  <a href="#contact">Contact</a>
+</div>
+
+<!-- ============ HERO ============ -->
+<header class="hero" id="home">
+  <canvas id="graph-canvas" aria-hidden="true"></canvas>
+  <div class="wrap">
+    <div class="hero-copy">
+      <div class="terminal-line"><span class="prompt">$</span> whoami<span class="caret"></span></div>
+      <div class="terminal-line output">&gt; <span id="typed-role">AI/ML Engineer</span></div>
+      <h1>Pravesh<br><span class="accent">Kumar</span></h1>
+      <p class="hero-tagline">
+        I turn data into insights and logic into clean code —<b>Python, Data Cleaning, Feature Engineering</b>, <b>Best AI/ML Models</b>, and responsive web layouts. Sharpened by <b>DSA in C++</b>, ensuring the core logic underneath is always optimized and scalable.
+      </p>
+      <div class="hero-actions">
+        <a href="#projects" class="btn btn-primary">View Projects</a>
+        <a href="#contact" class="btn btn-ghost">Get In Touch</a>
+      </div>
+      <div class="hero-socials">
+        <a href="https://github.com/praveshengineer22-crypto" target="_blank" rel="noopener" aria-label="GitHub">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 .5C5.73.5.5 5.73.5 12c0 5.08 3.29 9.39 7.86 10.91.58.11.79-.25.79-.56 0-.27-.01-1.17-.02-2.12-3.2.7-3.88-1.36-3.88-1.36-.52-1.34-1.28-1.7-1.28-1.7-1.05-.72.08-.7.08-.7 1.16.08 1.77 1.19 1.77 1.19 1.03 1.77 2.7 1.26 3.36.96.1-.75.4-1.26.73-1.55-2.55-.29-5.24-1.28-5.24-5.7 0-1.26.45-2.29 1.19-3.09-.12-.29-.52-1.46.11-3.05 0 0 .97-.31 3.18 1.18.92-.26 1.91-.39 2.89-.39.98 0 1.97.13 2.89.39 2.21-1.49 3.18-1.18 3.18-1.18.63 1.59.23 2.76.11 3.05.74.8 1.19 1.83 1.19 3.09 0 4.43-2.7 5.41-5.27 5.69.42.36.78 1.08.78 2.18 0 1.57-.01 2.84-.01 3.23 0 .31.21.68.8.56C20.71 21.39 24 17.08 24 12c0-6.27-5.23-11.5-12-11.5Z"/></svg>
+        </a>
+        <a href="https://www.linkedin.com/in/pravesh-kumar-469b6a391" target="_blank" rel="noopener" aria-label="LinkedIn">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M20.45 20.45h-3.56v-5.57c0-1.33-.02-3.04-1.85-3.04-1.86 0-2.14 1.45-2.14 2.94v5.67H9.34V9h3.41v1.56h.05c.48-.9 1.64-1.85 3.38-1.85 3.6 0 4.27 2.37 4.27 5.46v6.28ZM5.34 7.43a2.06 2.06 0 1 1 0-4.13 2.06 2.06 0 0 1 0 4.13ZM7.12 20.45H3.56V9h3.56v11.45ZM22.22 0H1.77C.79 0 0 .77 0 1.73v20.54C0 23.23.79 24 1.77 24h20.45c.98 0 1.78-.77 1.78-1.73V1.73C24 .77 23.2 0 22.22 0Z"/></svg>
+        </a>
+      </div>
+    </div>
+    <div class="hero-portrait">
+      <div class="ring"></div>
+      <div class="frame">
+        <img src="Spider_me.png" alt="Portrait of Pravesh Kumar">
+      </div>
+    </div>
+  </div>
+  <div class="scroll-cue"><span>SCROLL</span><span class="line"></span></div>
+</header>
+
+<!-- ============ TECH MARQUEE ============ -->
+<div class="marquee-wrap">
+  <div class="marquee-track">
+    <span>C++</span><span>C</span><span>Python</span><span>JavaScript</span><span>Numpy</span><span>Pandas</span><span>Matplotlib</span><span>Seaborn</span><span>Scikit-Learn</span><span>MySQL</span><span>Git</span><span>GitHub</span><span>APIs Calling</span><span>DSA</span>
+    <span aria-hidden="true">C++</span><span aria-hidden="true">C</span><span aria-hidden="true">Python</span><span aria-hidden="true">JavaScript</span><span aria-hidden="true">Numpy</span><span aria-hidden="true">Pandas</span><span aria-hidden="true">Matplotlib</span><span aria-hidden="true">Seaborn</span><span aria-hidden="true">Scikit-Learn</span><span aria-hidden="true">MySQL</span><span aria-hidden="true">Git</span><span aria-hidden="true">GitHub</span><span aria-hidden="true">APIs Calling</span><span aria-hidden="true">DSA</span>
+  </div>
+</div>
+
+<!-- ============ ABOUT ============ -->
+<section id="about">
+  <div class="ambient-glow" aria-hidden="true"></div>
+  <div class="wrap">
+    <div class="section-head reveal">
+      <span class="eyebrow"><span class="eyebrow-num">01</span>About</span>
+      <div class="title-bar"></div><h2 class="section-title">Beyond the <span class="accent">resume</span></h2>
+      <p class="section-sub">The stack I work in, the fundamentals I trust, and how they fit together.</p>
+    </div>
+
+    <div class="about-grid">
+      <div class="about-text reveal">
+        <p><strong>Pravesh Kumar</strong> - 3rd-year BCA student from Kanpur with a bias for execution over talk. I focus on the engineering side of Artificial Intelligence — turning raw data into production-ready models. My stack covers data preprocessing, feature engineering, and training pipelines using Python, PyTorch, and Scikit-Learn, backed by engineering fundamentals like OOP, DBMS, OS, and DSA in C++.</p>
+        <p>What actually drives me: building automated ML workflows, benchmarking model performance, and solving algorithmic problems to write optimized code. I build AI that scales, not just runs on a local notebook.</p>
+
+        <div class="stat-row">
+          <div class="stat-box"><div class="num">4+</div><div class="label">Projects shipped</div></div>
+          <div class="stat-box"><div class="num">150+</div><div class="label">DSA problems solved</div></div>
+          <div class="stat-box"><div class="num">8.36</div><div class="label">Best sem SGPA</div></div>
+        </div>
+      </div>
+
+      <div class="about-panels reveal" data-tabs>
+        <div class="tabs">
+          <button class="tab-btn active" data-target="panel-skills">Skills</button>
+          <button class="tab-btn" data-target="panel-education">Education</button>
+          <button class="tab-btn" data-target="panel-certs">Certifications</button>
+        </div>
+
+        <div class="tab-panel active" id="panel-skills">
+          <div class="skill-category">
+            <h4>Languages</h4>
+            <div class="chip-grid">
+              <span class="chip">C++</span><span class="chip">C</span><span class="chip">Python</span><span class="chip">Java</span>
+            </div>
+          </div>
+          <div class="skill-category">
+            <h4>Frontend</h4>
+            <div class="chip-grid">
+              <span class="chip">HTML</span><span class="chip">CSS</span><span class="chip">JavaScript</span>
+            </div>
+          </div>
+          <div class="skill-category">
+            <h4>Core AI &amp; Machine Learning</h4>
+            <div class="chip-grid">
+              <span class="chip">Python</span><span class="chip">Scikit-Learn</span><span class="chip">PyTorch</span><span class="chip">Tensorflow</span>
+            </div>
+          </div>
+          <div class="skill-category">
+            <h4>Data Engineering &amp; APIs</h4>
+            <div class="chip-grid">
+              <span class="chip">Numpy / Pandas</span><span class="chip">Matplotlib / Seaborn</span><span class="chip">Git</span><span class="chip">GitHub</span><span class="chip">SQL / MySQL</span>
+            </div>
+          </div>
+          <div class="skill-category">
+            <h4>Core Concepts</h4>
+            <div class="chip-grid">
+              <span class="chip">DSA with C++</span><span class="chip">OOP</span><span class="chip">DBMS</span><span class="chip">OS</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="tab-panel" id="panel-education">
+          <div class="timeline-item">
+            <h4>BCA — Bachelor of Computer Applications</h4>
+            <div class="meta">3rd Year · In Progress</div>
+            <p>SGPA — 1st Sem: 8.0 · 2nd Sem: 7.45 · 3rd Sem: 7.14 · 4th Sem: 8.36</p>
+          </div>
+          <div class="timeline-item">
+            <h4>Intermediate (12th)</h4>
+            <div class="meta">Completed</div>
+            <p>Scored 71.8%</p>
+          </div>
+          <div class="timeline-item">
+            <h4>High School (10th)</h4>
+            <div class="meta">Completed</div>
+            <p>Scored 76.6%</p>
+          </div>
+        </div>
+
+        <div class="tab-panel" id="panel-certs">
+          <div class="cert-list">
+            <div class="cert-item">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2 3 7v6c0 5 4 8 9 9 5-1 9-4 9-9V7l-9-5Z"/></svg>
+              Data Analytics job Simulation
+            </div>
+            <div class="cert-item">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2 3 7v6c0 5 4 8 9 9 5-1 9-4 9-9V7l-9-5Z"/></svg>
+              DSA with C++ Training
+            </div>
+            <div class="cert-item">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2 3 7v6c0 5 4 8 9 9 5-1 9-4 9-9V7l-9-5Z"/></svg>
+              Python Programming Basics Certification
+            </div>
+            <div class="cert-item">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2 3 7v6c0 5 4 8 9 9 5-1 9-4 9-9V7l-9-5Z"/></svg>
+              Frontend Development — HTML, CSS, JavaScript
+            </div>
+            <div class="cert-item">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2 3 7v6c0 5 4 8 9 9 5-1 9-4 9-9V7l-9-5Z"/></svg>
+              GenAI job Simulation
+            </div>
+            <div class="cert-item">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2 3 7v6c0 5 4 8 9 9 5-1 9-4 9-9V7l-9-5Z"/></svg>
+              GenAI Powered Data Analytics job Simulation
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ Learned ============ -->
+<section id="dsa">
+  <div class="ambient-glow violet" aria-hidden="true"></div>
+  <div class="wrap">
+    <div class="section-head reveal">
+      <span class="eyebrow"><span class="eyebrow-num">02</span>Learned</span>
+      <div class="title-bar"></div><h2 class="section-title">The Engineering <span class="accent">Grind</span></h2>
+      <p class="section-sub">Wrestling with data anomalies, optimizing model accuracy, and refining prediction pipelines. Solving real-world constraints, one algorithm at a time.</p>
+    </div>
+
+    <div class="dsa-panel reveal">
+      <div class="dsa-top">
+        <div class="dsa-handle">Environment: <span style="color: var(--accent);">Python 3.x / PyTorch Ecosystem</span></div>
+        <div class="dsa-rank">Production-Ready AI Workflow</div>
+      </div>
+
+      <div class="dsa-stats">
+        <div class="dsa-stat"><div class="val">94.2%</div><div class="lbl">Avg. Accuracy Target</div></div>
+        <div class="dsa-stat"><div class="val">10k</div><div class="lbl">Data Rows Handled</div></div>
+        <div class="dsa-stat"><div class="val">4</div><div class="lbl">Core Frameworks</div></div>
+        <div class="dsa-stat"><div class="val">0</div><div class="lbl">Notebook Debt</div></div>
+      </div>
+
+      <div class="dsa-bars">
+        <div class="bar-row">
+          <div class="bar-label"><span>Python (PyTorch / Scikit)</span><span>Core Stack</span></div>
+          <div class="bar-track"><div class="bar-fill" data-width="95%"></div></div>
+        </div>
+        <div class="bar-row">
+          <div class="bar-label"><span>FastAPI / REST Endpoints</span><span>Model Serving</span></div>
+          <div class="bar-track"><div class="bar-fill" data-width="85%"></div></div>
+        </div>
+        <div class="bar-row">
+          <div class="bar-label"><span>SQL / Data Engineering</span><span>Data Pipelines</span></div>
+          <div class="bar-track"><div class="bar-fill" data-width="75%"></div></div>
+        </div>
+      </div>
+
+      <div class="tag-tiers">
+        <div class="tag-tier advanced">
+          <h5>Model Architectures</h5>
+          <ul>
+            <li><span>Neural Networks (ANN/CNN)</span><span>Deep Learning</span></li>
+            <li><span>Regression &amp; Classification</span><span>Supervised</span></li>
+            <li><span>Clustering Algorithms</span><span>Unsupervised</span></li>
+          </ul>
+        </div>
+        <div class="tag-tier intermediate">
+          <h5>Data Engineering</h5>
+          <ul>
+            <li><span>Feature Scaling &amp; Encoding</span><span>Pandas</span></li>
+            <li><span>Data Cleaning &amp; Imputation</span><span>NumPy</span></li>
+            <li><span>Exploratory Data Analysis</span><span>Seaborn</span></li>
+          </ul>
+        </div>
+        <div class="tag-tier fundamental">
+          <h5>Core Mechanics</h5>
+          <ul>
+            <li><span>Loss Functions &amp; Optimizers</span><span>Math</span></li>
+            <li><span>Model Evaluation Metrics</span><span>Stats</span></li>
+            <li><span>Git / Version Control</span><span>MLOps</span></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="dsa-badges">
+        <span class="badge-pill">⚙️ End-to-End Pipelines</span>
+        <span class="badge-pill">🧠 Predictive Modeling</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ GITHUB ACTIVITY ============ -->
+<section id="github">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <span class="eyebrow"><span class="eyebrow-num">03</span>Version Control</span>
+      <div class="title-bar"></div><h2 class="section-title">Shipping in <span class="accent">public</span></h2>
+      <p class="section-sub">Hosting architectures, tracking data experiments, and versioning production ML models — live from my GitHub.</p>
+    </div>
+    <div class="github-panel reveal" id="github-panel">
+      <div class="gh-header">
+        <img id="gh-avatar" class="gh-avatar" src="" alt="" loading="lazy">
+        <div class="gh-id">
+          <h3 id="gh-name">Pravesh Kumar</h3>
+          <a id="gh-handle" href="https://github.com/praveshengineer22-crypto" target="_blank" rel="noopener">@praveshengineer22-crypto</a>
+        </div>
+        <a href="https://github.com/praveshengineer22-crypto" target="_blank" rel="noopener" class="btn btn-ghost gh-visit">Visit Profile</a>
+      </div>
+
+      <div class="gh-stats">
+        <div class="dsa-stat"><div class="val" id="gh-repos">—</div><div class="lbl">Public Repos</div></div>
+        <div class="dsa-stat"><div class="val" id="gh-followers">—</div><div class="lbl">Followers</div></div>
+        <div class="dsa-stat"><div class="val" id="gh-following">—</div><div class="lbl">Following</div></div>
+        <div class="dsa-stat"><div class="val" id="gh-since">—</div><div class="lbl">Member Since</div></div>
+      </div>
+
+      <div class="gh-repos-head">Recent repositories</div>
+      <div class="gh-repo-list" id="gh-repo-list">
+        <div class="gh-repo-skeleton"></div>
+        <div class="gh-repo-skeleton"></div>
+        <div class="gh-repo-skeleton"></div>
+      </div>
+      <p class="gh-error" id="gh-error" hidden>Couldn't reach GitHub's API right now — <a href="https://github.com/praveshengineer22-crypto" target="_blank" rel="noopener">view the profile directly</a>.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ============ PROJECTS ============ -->
+<section id="projects">
+  <div class="ambient-glow" aria-hidden="true"></div>
+  <div class="wrap">
+    <div class="section-head reveal">
+      <span class="eyebrow"><span class="eyebrow-num">04</span>Selected Work</span>
+      <div class="title-bar"></div><h2 class="section-title">Things I've <span class="accent">built</span></h2>
+      <p class="section-sub">Four projects, four different problems — each one deployed and clickable, not just a screenshot in a folder.</p>
+    </div>
+
+    <div class="project-grid">
+      <!-- Project 01: Loan Approval Predictor -->
+      <div class="project-card reveal"><div class="glare" aria-hidden="true"></div>
+        <div class="project-index">01 / Risk Analytics &amp; Predictions</div>
+        <h3>Loan Approval System</h3>
+        <p>Built an end-to-end supervised ML pipeline using KNN, Logistic Regression and Naive Bayes to Predict Loan Approval. Implimented Binary Classification along with EDA, Features Engineering and Model Evaluation (Precision, f1_score, recall).</p>
+        <div class="project-stack"><span>Python</span><span>Scikit-Learn</span><span>Pandas</span><span>Numpy</span><span>Seaborn</span><span>Matplotlib</span></div>
+        <a class="project-link" href="https://github.com" target="_blank" rel="noopener">
+          Source Repository
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17 17 7M7 7h10v10"/></svg>
+        </a>
+      </div>
+
+      <!-- Project 02: Python AI Assistant (Alexis) -->
+      <div class="project-card reveal"><div class="glare" aria-hidden="true"></div>
+        <div class="project-index">02 / Conversational AI</div>
+        <h3>Alexis Voice Assistant</h3>
+        <p>A Python-powered local AI assistant capable of intent parsing, speech recognition, and system task automation. Built with modular logical sub-routines to process operational voice queues and execute conditional shell triggers smoothly.</p>
+        <div class="project-stack"><span>Python</span><span>Pyttsx3</span><span>SpeechRecognition</span><span> Automation</span></div>
+        <a class="project-link" href="https://github.com" target="_blank" rel="noopener">
+          Source Repository
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17 17 7M7 7h10v10"/></svg>
+        </a>
+      </div>
+
+        <!-- Project 03: Intelligent E-Commerce Funnel -->
+      <!-- <div class="project-card reveal"><div class="glare" aria-hidden="true"></div>
+        <div class="project-index">03 / Machine Learning &amp; UI</div>
+        <h3>Smart Flipkart Engine</h3>
+        <p>A responsive shopping frontend integrated with an intelligent Python backend recommendation matrix. Tracks real-time user click patterns and dynamic catalog data to simulate predictive product rankings directly on the interface.</p>
+        <div class="project-stack"><span>FastAPI</span><span>Python</span><span>React/Next.js</span></div>
+        <a class="project-link" href="https://onrender.com" target="_blank" rel="noopener">
+          Visit live site
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17 17 7M7 7h10v10"/></svg>
+        </a>
+      </div>
+
+       Project 04: Data Engineering Pipeline
+      <div class="project-card reveal"><div class="glare" aria-hidden="true"></div>
+        <div class="project-index">04 / Data Infrastructure</div>
+        <h3>Student Profile Analytics</h3>
+        <p>A comprehensive student record system enhanced with a localized data engine. Preprocesses categorical administrative inputs, checks system validation matrices, and prepares raw relational data structures for downstream analytics models.</p>
+        <div class="project-stack"><span>HTML</span><span>CSS</span><span>JavaScript</span><span>Data Pipelines</span></div>
+        <a class="project-link" href="https://onrender.com" target="_blank" rel="noopener">
+          Visit live site
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17 17 7M7 7h10v10"/></svg>
+        </a>
+      </div> -->
+    </div>
+  </div>
+</section>
+
+<!-- ============ CONTACT ============ -->
+<section id="contact">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <span class="eyebrow"><span class="eyebrow-num">05</span>Get In Touch</span>
+      <div class="title-bar"></div><h2 class="section-title">Let's build <span class="accent">something</span></h2>
+      <p class="section-sub">Got a project, an internship role, or just want to argue about the best approach to a DSA problem? My inbox is open.</p>
+    </div>
+
+    <div class="contact-grid">
+      <div class="contact-info reveal">
+        <div class="contact-info-item">
+          <div class="icon-box">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 6 12 13 2 6"/><rect x="2" y="4" width="20" height="16" rx="2"/></svg>
+          </div>
+          <div><h4>Email</h4><a href="mailto:praveshengineer22@gmail.com">praveshengineer22@email.com</a></div>
+        </div>
+        <div class="contact-info-item">
+          <div class="icon-box">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.35 1.9.66 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.9.31 1.85.53 2.81.66A2 2 0 0 1 22 16.92Z"/></svg>
+          </div>
+          <div><h4>Phone</h4><a href="tel:+916306407681">+91 9721737256</a></div>
+        </div>
+        <div class="contact-info-item">
+          <div class="icon-box">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg>
+          </div>
+          <div><h4>Location</h4><p>Kanpur Dehat, Uttar Pradesh, India</p></div>
+        </div>
+      </div>
+
+      <!--
+        Form posts to FormSubmit (no backend needed).
+        First submission triggers a one-time confirmation email to
+        aditya.yadav.it.07@email.com — click confirm to activate it.
+        Swap the address below for your real inbox before publishing.
+      -->
+      <form class="contact-form reveal" id="contact-form" action="https://formsubmit.co/pravesh.kumar.it.22@email.com" method="POST">
+        <input type="hidden" name="_subject" value="New message from portfolio site">
+        <input type="hidden" name="_captcha" value="false">
+        <input type="hidden" name="_template" value="table">
+        <div class="form-row">
+          <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" placeholder="Your name" required>
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="you@example.com" required>
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="subject">Subject</label>
+          <input type="text" id="subject" name="subject" placeholder="What's this about?" required>
+        </div>
+        <div class="form-group">
+          <label for="message">Message</label>
+          <textarea id="message" name="message" placeholder="Tell me a bit about it…" required></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Send Message</button>
+        <p class="form-status" id="form-status" role="status" aria-live="polite"></p>
+      </form>
+    </div>
+  </div>
+</section>
+
+<!-- ============ FOOTER ============ -->
+<footer>
+  <div class="wrap">
+    <p>© <span id="year"></span> Pravesh Kumar. Built with HTML, CSS &amp; JS and ML (Data Cleaning, Feature Engineering &amp Model Training).</p>
+    <a href="#home" class="back-top">Back to top ↑</a>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
